@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F9F7F3;
+}
+*{margin: 0; padding: 0;}
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Oranienbaum', serif; */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    color: #000000;
+}
+.name{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name h1{
+    font-family: 'Oranienbaum', serif;
+    font-size: 64px;
+}
+.name p{
+    margin-top: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+}
+hr{
+    width: 1117px;
+    margin: 51px 160px 51px 160px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Oranienbaum', serif;
+}
+.about{
+    width: 100%;
+}
+.about-text{
+    margin: 61px auto;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text p{
+    width: 398px;
+}
+strong { font-weight: bold; }
+.resume p{
+    margin-left: 330px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+.resume h4{
+    margin: 25px 330px 12px;
+    font-family: 'Oranienbaum', serif;
+    font-size: 40px;
+}
+
+
+.container {
+    margin: 51px 330px 51px 330px;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 25px;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .link {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .link::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    top: 5px;
+    left: -25px;
+    transform: translatex(-50%);
+    border: 2px solid black;
+  }
+  .link:hover::after {
+    background: black;
+  }
+
+
+.contacts-text{
+    width: 100%;
+    margin: 31px 330px;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+}
+.contacts-text a{
+    text-decoration: none;
+    color: #000;
+}
+.contacts-text p{margin-top: 15px;}
+.contacts-text a:hover{
+    text-decoration: underline;
+}
+.why-me{
+    margin: 51px 330px;
+    font-family: 'Oranienbaum', serif;
+    font-size: 32px;
+}
+.why-text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.why-text h4{
+    border: 2px solid #000;
+    margin-top: 10px;
+}
+    button:hover{cursor: pointer}
+    button {
+      background: transparent; outline: none;
+      position: relative;
+      border: 2px solid #111;
+      padding: 15px 50px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      content: attr(data-hover);
+      position: absolute;
+      top: 1.5em; left: 0;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: 1em;
+      opacity: 0;
+      transform: translate(-100%,0);
+      transition: all .3s ease-in-out;
+    }
+      /*button div (button text before hover)*/
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        font-family:'Oranienbaum', serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 800;
+        font-size: 1.5em;
+        transition: all .3s ease-in-out;
+      }
