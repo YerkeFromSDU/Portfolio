@@ -226,3 +226,30 @@ strong { font-weight: bold; }
     width: 500px;
     height: 700px;
 }
+
+
+@media (max-width: 480px) {
+    .name h1{
+        margin-left: 40px;
+    }
+    hr{
+        width: 350px;
+        margin: 20px 20px;
+    }
+    .about-text{
+        flex-direction: column;
+        width: 400px;
+    }
+    .resume h4, .resume p{
+        margin: 25px 40px 12px;
+    }
+    .container{
+        margin: 40px 40px 40px 40px;
+    }
+    .contacts-text{
+        margin: 31px 40px;
+    }
+    .why-me{
+        margin: 51px 40px;
+    }
+}
