@@ -176,3 +176,53 @@ strong { font-weight: bold; }
         font-size: 1.5em;
         transition: all .3s ease-in-out;
       }
+
+/* -----------------------Projects-------------------------- */
+.container-1{
+    margin: 0;
+    padding: 0;
+    background-color: #181817;
+    color: #F9F7F3;
+}
+.back{
+    padding: 40px;
+}
+.back a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #F9F7F3;
+}
+.title{
+    background-color: #181817;
+    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Oranienbaum', serif;
+    font-size: 20px;
+}
+.title p{
+    margin-top: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+#myCarousel{
+    background-color: #181817;
+    display: flex;
+    margin-top: 50px;
+}
+.main{
+    margin-left: 500px;
+    width: 500px;
+}
+.teacher{
+    margin-left: 500px;
+    width: 500px;
+    height: 700px;
+}
+.rate{
+    margin-left: 500px;
+    width: 500px;
+    height: 700px;
+}
