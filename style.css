@@ -231,6 +231,7 @@ strong { font-weight: bold; }
 @media (max-width: 480px) {
     .name h1{
         margin-left: 40px;
+        margin-bottom: 13px;
     }
     hr{
         width: 350px;
@@ -251,5 +252,21 @@ strong { font-weight: bold; }
     }
     .why-me{
         margin: 51px 40px;
+    }
+    .title{
+        margin-left: 5px;
+    }
+    #myCarousel{
+        margin-top: 20px;
+    }
+    .main{
+        margin-left: 10px;
+        width: 300px;
+        height: 900px;
+    }
+    .teacher, .rate{
+        margin-left: 10px;
+        width: 300px;
+        height: 500px;
     }
 }
